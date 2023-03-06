@@ -1,6 +1,6 @@
 # math2docx
 
-math2docx
+Open source Python library converting math formula to docx
 
 ## How to install?
 
