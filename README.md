@@ -3,7 +3,7 @@ Open source Python library converting math formula to docx
 
 ## How to install?
 ```bash
-pip install math2docx==2.0.2
+pip install math2docx
 ```
 ## Example
 ```bash
