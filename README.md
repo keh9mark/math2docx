@@ -1,3 +1,5 @@
+[![Star History Chart](https://api.star-history.com/svg?repos=keh9mark/math2docx&type=Date)](https://star-history.com/#keh9mark/math2docx&Date)
+
 # math2docx
 Open source Python library converting math formula to docx
 
