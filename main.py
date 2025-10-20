@@ -16,4 +16,12 @@ def _formula(latex_string: str) -> typing.Any:
 
 
 def add_math(p, latex_string) -> None:
+    """Add equation to Paragraph element"""
     p._p.append(_formula(latex_string))
+
+
+def add_math_to_tc(tc, latex_string) -> None:
+    """Add equation to Table inner _Cell element"""
+    tc._tc.clear_content()
+    p = tc._tc.add_p()
+    p.append(_formula(latex_string))
