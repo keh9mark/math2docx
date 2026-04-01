@@ -1,0 +1,30 @@
+[project]
+name = "math2docx"
+version = "3.0.0"
+description = "Open source Python library converting math formula to docx"
+readme = "README.md"
+authors = [
+    { name = "Николай М", email = "keh9mark@yandex.ru" }
+]
+keywords = ["math", "docx", "formula"]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "latex2mathml>=3.79.0",
+    "mathml2omml-as>=0.1.0",
+    "python-docx>=1.2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/keh9mark/math2docx"
+Repository = "https://github.com/keh9mark/math2docx.git"
+Issues = "https://github.com/keh9mark/math2docx/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
