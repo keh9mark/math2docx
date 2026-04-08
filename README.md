@@ -3,7 +3,7 @@
 # math2docx
 Open source Python library converting math formula to docx
 
-# New in version 3.0.1
+# New in version 3.1.0
 Now you can specify the font style with a argument:
 
 True — italic font (default)
