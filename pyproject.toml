@@ -1,6 +1,6 @@
 [project]
 name = "math2docx"
-version = "3.0.0"
+version = "3.0.1"
 description = "Open source Python library converting math formula to docx"
 readme = "README.md"
 authors = [
